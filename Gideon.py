@@ -1,4 +1,5 @@
 # import all the libraries
+import os
 import discord
 from tensorflow import keras
 import json
@@ -132,5 +133,5 @@ async def on_message(message):
 
 if __name__ == "__main__":
     client.run(
-        "Nzg3MzQ3NjM0MzY5MjAwMjMw.GbOOeb.8Kzl4saklleA41h3AIuqUVi-YuizdknMKeeWW8",
+        os.environ["DISCORD_TOKEN"],
     )  # bot token

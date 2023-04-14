@@ -1,1 +1,1 @@
-worker: python Gideon.py
+web: python Gideon.py

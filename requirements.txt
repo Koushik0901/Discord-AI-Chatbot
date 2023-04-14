@@ -1,4 +1,4 @@
-tensorflow==2.3.1
-numpy==1.18.5
-discord
-scikit-learn
+tensorflow-cpu==2.12.0
+numpy==1.23.5
+discord==2.2.2
+scikit-learn==1.2.2
