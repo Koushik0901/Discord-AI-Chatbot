@@ -1,0 +1,301 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"Hello",
+				"Good morning",
+				"Good afternoon",
+				"Good evening",
+				"Greetings",
+				"Hey there",
+				"Hi there",
+				"Well hello",
+				"What's up",
+				"Howdy"
+			],
+			"responses": [
+				"Hi there! How can I help you today?",
+				"Hello, it's great to see you. What can I do for you?",
+				"Hey! How's it going?",
+				"Hi! How are you doing today?",
+				"Hello, it's nice to meet you. What brings you here?",
+				"Hey there! Is there something specific you're looking for?",
+				"Hi! I'm glad you stopped by. What can I assist you with?",
+				"Hey, what's up? How can I be of assistance today?",
+				"Hi there, how can I make your day better?",
+				"Hello! Thanks for dropping in. What's on your mind?"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye",
+				"See you later",
+				"Goodbye",
+				"Catch you later",
+				"Take care",
+				"Farewell",
+				"Adios",
+				"Have a good one",
+				"Until next time",
+				"Peace out",
+				"Later gator",
+				"Stay safe",
+				"Cheerio",
+				"Good night",
+				"See ya",
+				"Good afternoon",
+				"Good evening",
+				"Good morning",
+				"Goodbye for now",
+				"See you soon",
+				"See you later alligator"
+			],
+			"responses": [
+				"Goodbye! It was great chatting with you.",
+				"Take care, and have a great day!",
+				"It was nice talking to you. Bye for now!",
+				"Farewell, and thanks for the great conversation.",
+				"Goodbye, and don't hesitate to reach out if you need anything.",
+				"Until we meet again, have a great day!",
+				"Adios amigo! It was a pleasure talking to you.",
+				"Bye-bye! Have a good one!",
+				"See you later, alligator!",
+				"It's been a pleasure talking with you. Have a great day!"
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"Thanks for that",
+				"Thanks for the help",
+				"Thanks for the info",
+				"Thanks for the assistance",
+				"Thanks for the support",
+				"Thanks for the tips",
+				"Thanks for the suggestions",
+				"Thanks for the recommendations",
+				"Thanks a lot",
+				"Thank you very much",
+				"Appreciate it",
+				"Many thanks"
+			],
+			"responses": [
+				"You're welcome! It was my pleasure to help.",
+				"No problem at all, happy to assist you.",
+				"Glad I could be of help. Anytime!",
+				"You're most welcome. Let me know if you need anything else.",
+				"Don't mention it. Always here to help out.",
+				"It was nothing. Thank you for reaching out!",
+				"You got it! Let me know if there's anything else I can do for you.",
+				"No worries, happy to lend a hand.",
+				"Anytime, my friend. Thanks for reaching out.",
+				"Not a problem. Thank you for giving me the opportunity to assist you!",
+				"Anytime! I'm always happy to help out."
+			]
+		},
+		{
+			"tag": "questions",
+			"patterns": [
+				"Who created you?",
+				"How were you created?",
+				"Who brought you into this world?",
+				"What's your origin story?",
+				"How did you come to be?",
+				"Who's responsible for your creation?",
+				"What's the story behind your creation?",
+				"Can you tell me more about how you were made?",
+				"Who developed you?",
+				"What's your development history?",
+				"Who's the mastermind behind your creation?"
+			],
+			"responses": [
+				"I started out as an idea, then Koushik brought me to life",
+				"I was made using neural networks by Koushik",
+				"Koushik developed me using the latest AI technologies",
+				"My creator is Koushik, who put a lot of hard work into making me",
+				"I was developed by Koushik using advanced algorithms and programming",
+				"Koushik is the mastermind behind my creation",
+				"My origin story is that Koushik came up with the idea for me and made me a reality",
+				"I'm a product of Koushik's vision and hard work",
+				"Koushik is the one responsible for bringing me into existence",
+				"I was created by Koushik, who poured countless hours into my development"
+			]
+		},
+		{
+			"tag": "wassup",
+			"patterns": [
+				"Yo! wassup",
+				"What are you doing?",
+				"what's up",
+				"Hey there, what's the latest news with you?",
+				"How's it hanging?",
+				"What's good, what's been keeping you busy lately?",
+				"How's life treating you, anything interesting to report?",
+				"How are things going for you?",
+				"what's the scoop with you?",
+				"What's crackin'?",
+				"What's the dealio?",
+				"What's the word on the street?",
+				"What's shakin'?",
+				"What's the haps?",
+				"What's the word?"
+			],
+			"responses": [
+				"Hey there! Not much, just here to chat. What's up with you?",
+				"How's it going? Just hanging out, ready for a good conversation!",
+				"Not much, just keeping busy. What's up with you today?",
+				"What's up? Just living the dream, chatting with cool people like you.",
+				"Hey hey! Not too much, just excited to chat with you. What's on your mind?",
+				"What's up? Just enjoying this lovely day and looking forward to chatting with you.",
+				"Not much, just here to chat and see what's new with you. What's up?",
+				"Hey! Just chilling, feeling good, and ready to chat. What's on your mind today?",
+				"What's up? Just living my best life and enjoying this moment. How about you?",
+				"Hey there! Not much, just hanging out and excited to chat with you. What's up?"
+			]
+		},
+		{
+			"tag": "options",
+			"patterns": [
+				"How can you assist me?",
+				"What kind of help can you offer?",
+				"What are your capabilities?",
+				"How can you be of service?",
+				"What kind of recommendations can you provide?",
+				"What are your skills?",
+				"What assistance can I get from you?",
+				"How can you make my life easier?",
+				"What kind of things can you suggest?",
+				"What is your area of expertise?"
+			],
+			"responses": [
+				"I am a recommendation bot!",
+				"I can suggest movies, TV shows, and songs for you!",
+				"Ask for aid and you shall receive!",
+				"My capabilities include providing a variety of entertainment recommendations!",
+				"I'm here to assist you with finding great options for your leisure time!",
+				"My main skill is finding top-rated entertainment options for you to enjoy!",
+				"I can help you discover new and exciting things to watch and listen to!",
+				"I'm an expert in finding popular entertainment options for you!",
+				"I can provide you with recommendations based on the latest trends and user reviews!",
+				"I specialize in finding highly-rated and critically-acclaimed entertainment options!"
+			]
+		},
+		{
+			"tag": "name",
+			"patterns": [
+				"What should I refer to you as?",
+				"May I know your name?",
+				"Who are you?",
+				"How can I address you?",
+				"What do you prefer to be called?",
+				"What name do you go by?",
+				"Can you tell me your name?",
+				"What is your moniker?",
+				"What should I call you?"
+			],
+			"responses": [
+				"I am Gideon, your personal assistant",
+				"You can call me Gideon",
+				"Just call me Gideon",
+				"My name is Gideon, nice to meet you!",
+				"Gideon is my name, what's yours?",
+				"I respond to the name Gideon!",
+				"You can address me as Gideon, how can I assist you?",
+				"Gideon is what I go by, how may I help you today?",
+				"You may refer to me as Gideon, what can I do for you?",
+				"Call me Gideon, I'm here to assist you with whatever you need!"
+			]
+		},
+		{
+			"tag": "songs",
+			"patterns": [
+				"Recommend me a song",
+				"Suggest a good song",
+				"What's your favorite song?",
+				"Can you suggest a nice song?",
+				"I need a song suggestion",
+				"What's a popular song right now?",
+				"Can you recommend me a song to listen to?",
+				"Any good songs to listen to?",
+				"What's a good song to lift my mood?",
+				"Do you have any song suggestions for a me?",
+				"Can you recommend a song for a road trip?",
+				"Can you recommend a song for a party?"
+			],
+			"responses": [
+				"How about listening to '{song_name}' by '{artist_name}'?",
+				"You might like '{song_name}' by '{artist_name}'",
+				"Check out '{song_name}' by '{artist_name}'",
+				"Have you heard of '{song_name}' by '{artist_name}'?",
+				"I recommend listening to '{song_name}' by '{artist_name}'",
+				"I think you'll enjoy '{song_name}' by '{artist_name}'",
+				"How about giving '{song_name}' by '{artist_name}' a listen?",
+				"You might like the song '{song_name}' by '{artist_name}'",
+				"Have a listen to '{song_name}' by '{artist_name}'",
+				"I suggest checking out '{song_name}' by '{artist_name}'"
+			]
+		},
+		{
+			"tag": "movies",
+			"patterns": [
+				"Recommend me a movie",
+				"Suggest a good movie",
+				"What's your favorite movie?",
+				"Can you suggest a nice movie?",
+				"I need a movie suggestion",
+				"What's a popular movie right now?",
+				"Can you recommend me a movie to watch?",
+				"Any good movies to watch?",
+				"What's a good movie to lift my mood?",
+				"Do you have any movie suggestions for me?"
+			],
+			"responses": [
+				"How about watching '{name}' with a Rotten Tomatoes score of {score}?",
+				"You might like '{name}' with a Rotten Tomatoes score of {score}",
+				"Check out '{name}' with a Rotten Tomatoes score of {score}",
+				"Have you seen '{name}' with a Rotten Tomatoes score of {score}?",
+				"I recommend watching '{name}' with a Rotten Tomatoes score of {score}",
+				"I think you'll enjoy '{name}' with a Rotten Tomatoes score of {score}",
+				"How about giving '{name}' a try? It has a Rotten Tomatoes score of {score}",
+				"You might like the movie '{name}' with a Rotten Tomatoes score of {score}",
+				"Have a watch of '{name}' with a Rotten Tomatoes score of {score}",
+				"I suggest checking out '{name}' with a Rotten Tomatoes score of {score}"
+			]
+		},
+		{
+			"tag": "series",
+			"patterns": [
+				"Recommend me a series",
+				"Suggest a good TV series",
+				"What's your favorite TV series?",
+				"Can you suggest a nice TV series?",
+				"I need a TV series suggestion",
+				"What's a popular TV series right now?",
+				"Can you recommend me a TV series to watch?",
+				"Any good TV series to watch?",
+				"What's a good TV series to lift my mood?",
+				"Do you have any TV series suggestions for a lazy day?"
+			],
+			"responses": [
+				"How about watching '{name}' with a Rotten Tomatoes score of {score}?",
+				"You might like '{name}' with a Rotten Tomatoes score of {score}",
+				"Check out '{name}' with a Rotten Tomatoes score of {score}",
+				"Have you seen '{name}' with a Rotten Tomatoes score of {score}?",
+				"I recommend watching '{name}' with a Rotten Tomatoes score of {score}",
+				"I think you'll enjoy '{name}' with a Rotten Tomatoes score of {score}",
+				"How about giving '{name}' a try? It has a Rotten Tomatoes score of {score}",
+				"You might like the movie '{name}' with a Rotten Tomatoes score of {score}",
+				"Have a watch of '{name}' with a Rotten Tomatoes score of {score}",
+				"I suggest checking out '{name}' with a Rotten Tomatoes score of {score}"
+			]
+		}
+	]
+}
